@@ -1,8 +1,6 @@
-[package]
-name = "ziust"
-version = "0.1.0"
-edition = "2021"
-
-[dependencies]
-tree-sitter = "0.25.3"
-tree-sitter-ziust = "0.0.1"
+[workspace]
+resolver = "2"
+members = [
+    "ast",
+    "formatter",
+]
